@@ -1,0 +1,6 @@
+name = OpenID Connect Single Sign-On Client
+description = Overrides basic user functions to enable SSO functionality for client sites: login and logout redirects, user profile editing permissions, and SSO authorization client.
+core = 7.x
+package = "OAuth2"
+dependencies[] = openid_connect
+dependencies[] = openid_connect_sso

@@ -1,0 +1,5 @@
+name = OpenID Connect Single Sign-On
+description = Provides basic SSO functionality. Also contains configuration UI for creating an SSO system.
+core = 7.x
+package = "OAuth2"
+configure = admin/config/services/openid-connect-sso
